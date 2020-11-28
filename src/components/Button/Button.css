@@ -1,0 +1,18 @@
+.button {
+    width: 154px;
+    height: 55px;
+    border: 2px solid #FB4C47;
+    box-sizing: border-box;
+    border-radius: 46px;
+    background: transparent;
+    outline: none;
+    color: #FF383D;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+}
+.button:hover {
+    background-color: #FB4C47;
+    color: white;
+}

@@ -1,0 +1,10 @@
+.overview {
+    height: 950px;
+    background: url("../../resources/overview.svg") center left no-repeat;
+    padding-top: 1px;
+}
+.overview__content {
+    margin: 0px 0 0 1033px;
+
+
+}

@@ -1,0 +1,22 @@
+import React from 'react';
+import './MainSection.css';
+import {Header} from "./Header/Header";
+import {Button2} from "../Button2/Button2";
+
+export function MainSection() {
+    return (
+        <div className="main_section">
+            <Header />
+            <div className="main_section__container">
+                <div className="main_section__content">
+                    <p className="main_section__title">COVID-19 Alert</p>
+                    <p className="main_section__subtitle">Stay at Home quarantine <br/> To stop Corona virus</p>
+                    <p className="main_section__text">There is no specific medicine to prevent or treat coronavirus <br/> disease (COVID-19). People may need supportive care to</p>
+                </div>
+                <div className="main_section__button">
+                    <Button2 text={"Let Us Help"}/>
+                </div>
+            </div>
+        </div>
+    )
+}

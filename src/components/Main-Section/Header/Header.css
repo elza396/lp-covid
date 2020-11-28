@@ -1,0 +1,56 @@
+.header {
+    height: 150px;
+    margin: 0 240px;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    display: inline-flex;
+    align-items: center;
+}
+.logo_img {
+    margin-right: 14px;
+}
+.logo_text {
+    color: var(--secondary-color);
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+.navigation {
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+}
+.navigation a {
+    margin-right: 40px;
+    text-decoration: none;
+    transition: color 0.2s;
+    position: relative;
+}
+.navigation a:visited {
+    color: var(--secondary-color);
+}
+.navigation a:hover {
+    color: #FB4C47;
+}
+.navigation a::after {
+    content: "";
+    position: absolute;
+    top: calc(100% + 9px);
+    left: calc(50% - 3px);
+    width: 6px;
+    height: 6px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.2s;
+}
+.navigation a:hover::after {
+    opacity: 1;
+}
