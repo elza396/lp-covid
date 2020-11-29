@@ -4,7 +4,31 @@
 }
 :root {
   --primary-color: #b81915;
+  --title-color: #FA5652;
   --secondary-color: #035755;
 }
-.App {
+.title {
+  color: var(--title-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 39px;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.subtitle {
+  color: var(--secondary-color);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  text-transform: capitalize;
+  margin-bottom: 29px;
+}
+.text {
+  color: #4B4F51;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 43px;
+  text-transform: capitalize;
 }

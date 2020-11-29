@@ -1,10 +1,12 @@
 .overview {
     height: 950px;
-    background: url("../../resources/overview.svg") center left no-repeat;
+    background: url("../../resources/overview.svg") top left no-repeat;
+    margin-left: 140px;
     padding-top: 1px;
 }
 .overview__content {
-    margin: 0px 0 0 1033px;
-
-
+    margin: 100px 0 0 893px;
+}
+.overview__button {
+    margin-top: 56px;
 }

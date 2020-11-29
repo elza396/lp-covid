@@ -11,30 +11,9 @@
     margin-left: 243px;
     margin-top: 260px;
 }
-.main_section__title {
-    color: var(--primary-color);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 30px;
-    line-height: 39px;
-    text-transform: capitalize;
-    margin-bottom: 8px;
-}
-.main_section__subtitle {
-    color: var(--secondary-color);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 39px;
-    text-transform: capitalize;
-    margin-bottom: 29px;
-}
-.main_section__text {
-    color: #4B4F51;
-    font-weight: normal;
+.main_section .text {
     font-size: 24px;
     line-height: 46px;
-    text-transform: capitalize;
 }
 .main_section__button {
     margin: 54px 0 0 243px;
