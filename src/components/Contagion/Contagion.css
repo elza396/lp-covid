@@ -1,0 +1,27 @@
+.contagion_section {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+.contagion__content {
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contagion__content .text {
+    text-align: center;
+}
+.contagion__cards {
+    display: flex;
+    margin-top: 110px;
+    position: relative;
+}
+.contagion__cards::before {
+    content: "";
+    background: url("../../resources/contagionVirus.svg");
+    height: 260px;
+    width: 255px;
+    position: absolute;
+    left: -125px;
+    bottom: 5px;
+}

@@ -1,12 +1,28 @@
-.overview {
-    height: 950px;
+.overview_section {
+    height: 700px;
     background: url("../../resources/overview.svg") top left no-repeat;
     margin-left: 140px;
     padding-top: 1px;
+    width: 1780px;
+    position: relative;
 }
 .overview__content {
     margin: 100px 0 0 893px;
 }
 .overview__button {
     margin-top: 56px;
+}
+.overview__virus {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    width: 171px;
+    height: 340px;
+}
+.overview__fullvirus {
+    position: absolute;
+    right: 35px;
+    bottom: 0;
+    width: 130px;
+    height: 130px;
 }

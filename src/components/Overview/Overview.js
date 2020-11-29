@@ -1,10 +1,12 @@
 import React from 'react';
 import './Overview.css';
 import {Button} from "../Button/Button";
+import Virus from "../../resources/virus.svg";
+import Fullvirus from "../../resources/fullvirus.svg";
 
 export function Overview() {
     return (
-        <div className="overview">
+        <div className="overview_section">
             <div className="overview__content">
                 <p className="title">What Is Covid-19</p>
                 <p className="subtitle">Coronavirus</p>
@@ -16,6 +18,8 @@ export function Overview() {
                 <div className="overview__button">
                     <Button text={"Learn More"} />
                 </div>
+                <img alt="" className="overview__virus" src={Virus} />
+                <img alt="" className="overview__fullvirus" src={Fullvirus} />
             </div>
         </div>
     )
