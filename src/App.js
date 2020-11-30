@@ -5,6 +5,7 @@ import {Overview} from "./components/Overview/Overview";
 import {Contagion} from "./components/Contagion/Contagion";
 import {Symptoms} from "./components/Symptoms/Symptoms";
 import {Prevention} from "./components/Prevention/Prevention";
+import {Statistics} from "./components/Statistics/Statistics";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Contagion />
       <Symptoms />
       <Prevention />
+      <Statistics/>
     </div>
   );
 }
