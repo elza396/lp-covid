@@ -38,7 +38,7 @@
 .navigation a:hover {
     color: #FB4C47;
 }
-.navigation a::after {
+.header > .navigation a::after {
     content: "";
     position: absolute;
     top: calc(100% + 9px);

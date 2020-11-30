@@ -1,0 +1,46 @@
+.question_content {
+    width: 1920px;
+    height: 462px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../../../resources/QuestionVirus.svg") no-repeat 100%;
+}
+.question_content > p {
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+    color: #0C6C44;
+    margin-bottom: 62px;
+}
+.question__form {
+    width: 800px;
+    height: 115px;
+    background: #FFFFFF;
+    box-shadow: 0 8px 80px rgba(0, 0, 0, 0.06);
+    border-radius: 57px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.question__form > input {
+    border: none;
+    border-radius: 57px;
+    width: 490px;
+    height: 115px;
+    outline: none;
+    padding: 0 25px;
+    color: #758681;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+.question__form > input:focus {
+    border: 2px solid var(--title-color);
+    border-radius: 57px;
+    padding-left: 23px;
+}

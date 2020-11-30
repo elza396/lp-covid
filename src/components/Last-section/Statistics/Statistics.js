@@ -1,13 +1,13 @@
 import React from 'react';
 import './Statistics.css';
-import Map from "../../resources/Map.svg";
+import Map from "../../../resources/Map.svg";
 import {Country} from "./Country/Country";
-import USA from "../../resources/USA.svg";
-import Spain from "../../resources/Spain.svg";
-import Iran from "../../resources/Iran.svg";
-import China from "../../resources/China.svg";
-import Germany from "../../resources/Germany.svg";
-import Italy from "../../resources/Italy.svg";
+import USA from "../../../resources/USA.svg";
+import Spain from "../../../resources/Spain.svg";
+import Iran from "../../../resources/Iran.svg";
+import China from "../../../resources/China.svg";
+import Germany from "../../../resources/Germany.svg";
+import Italy from "../../../resources/Italy.svg";
 
 export function Statistics() {
     return (

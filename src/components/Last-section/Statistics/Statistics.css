@@ -1,7 +1,7 @@
 .statistics_section {
     width: 1920px;
     height: 635px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 .statistics_content {
     display: flex;

@@ -1,8 +1,16 @@
+.prevention_section {
+    width: 1920px;
+    margin: 0 auto;
+    background: url("../../resources/PreventionVirus2.svg") no-repeat 100% 85%;
+}
 .prevention__content {
     height: 2652px;
+    width: 1920px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
+    background: url("../../resources/PreventionVirus.svg") no-repeat 0 28%;
 }
 .prevention__content .text {
     text-align: center;
@@ -11,6 +19,7 @@
     margin-top: 71px;
     display: flex;
     align-items: center;
+
 }
 .prevention1__content {
     margin-right: 150px;
