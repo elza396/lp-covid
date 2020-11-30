@@ -1,10 +1,11 @@
 .overview_section {
+    width: 1920px;
     height: 700px;
     background: url("../../resources/overview.svg") top left no-repeat;
-    margin-left: 140px;
+    padding-left: 140px;
     padding-top: 1px;
-    width: 1780px;
     position: relative;
+    margin: 0 auto;
 }
 .overview__content {
     margin: 100px 0 0 893px;

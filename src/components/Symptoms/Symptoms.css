@@ -1,0 +1,156 @@
+.symptoms_section {
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.symptoms__content {
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.symptoms__content .text {
+    text-align: center;
+}
+.symptoms__scheme {
+    margin-top: 68px;
+    height: 810px;
+    width: 1767px;
+    background: url("../../resources/SympomsBG.svg") no-repeat right bottom;
+    position: relative;
+}
+.symptoms__scheme > img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-52%);
+    margin-top: 50px;
+    height: 720px;
+    width: 600px;
+}
+.symptom1 {
+    position: absolute;
+    top:94px;
+    left: 300px;
+}
+.symptom1::after {
+    content: "";
+    background: url("../../resources/symptomLine1.svg") no-repeat;
+    position: absolute;
+    height: 69px;
+    width: 404px;
+    left: 170px;
+    top: 62px;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+}
+.symptom1:hover::after {
+    opacity: 1;
+}
+.symptom__circle__line1 {
+    position: absolute;
+    height: 230px;
+    width: 96px;
+    left: 63px;
+    top: -19px;
+}
+.symptom__circle__line2 {
+    position: absolute;
+    height: 230px;
+    width: 96px;
+    left: -19px;
+    top: -19px;
+}
+.symptom2 {
+    position: absolute;
+    top: 338px;
+    left: 300px;
+}
+.symptom2::after {
+    content: "";
+    background: url("../../resources/symptomLine2.svg") no-repeat;
+    position: absolute;
+    height: 90px;
+    width: 450px;
+    left: 170px;
+    top: -10px;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+}
+.symptom2:hover::after {
+    opacity: 1;
+}
+.symptom3 {
+    position: absolute;
+    top: 580px;
+    left: 300px;
+}
+.symptom3::after {
+    content: "";
+    background: url("../../resources/symptomLine3.svg") no-repeat;
+    position: absolute;
+    height: 178px;
+    width: 490px;
+    left: 170px;
+    top: -94px;
+    transition: all 0.5s ease-in;
+    opacity: 0;
+}
+.symptom3:hover::after {
+    opacity: 1;
+}
+.symptom4 {
+    position: absolute;
+    top:94px;
+    right: 300px;
+}
+.symptom4::before {
+    content: "";
+    background: url("../../resources/symptomLine4.svg") no-repeat;
+    position: absolute;
+    height: 55px;
+    width: 310px;
+    right: 175px;
+    top: 60px;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+.symptom4:hover::before {
+    opacity: 1;
+}
+.symptom5 {
+    position: absolute;
+    top: 338px;
+    right: 300px;
+}
+.symptom5::before {
+    content: "";
+    background: url("../../resources/symptomLine5.svg") no-repeat;
+    position: absolute;
+    height: 95px;
+    width: 330px;
+    right: 170px;
+    top: -22px;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+.symptom5:hover::before {
+    opacity: 1;
+}
+.symptom6 {
+    position: absolute;
+    top: 580px;
+    right: 300px;
+}
+.symptom6::before {
+    content: "";
+    background: url("../../resources/symptomLine6.svg") no-repeat;
+    position: absolute;
+    height: 65px;
+    width: 260px;
+    right: 170px;
+    top: 60px;
+    transition: all 0.5s ease-out;
+    opacity: 0;
+}
+.symptom6:hover::before {
+    opacity: 1;
+}

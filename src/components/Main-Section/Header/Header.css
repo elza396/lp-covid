@@ -1,7 +1,6 @@
 .header {
     height: 150px;
     margin: 0 240px;
-    font-family: 'Red Hat Display', sans-serif;
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -1,6 +1,9 @@
+.mainBG {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0) -30%, #FFF8F8 100%, #B57474 100%);
+}
 .main_section {
     width: 1920px;
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0) -30%, #FFF8F8 100%, #B57474 100%);
+    margin: 0 auto;
 }
 .main_section__container {
     height: 910px;
