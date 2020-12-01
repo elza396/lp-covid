@@ -1,14 +1,19 @@
+.overview {
+    background: url("../../resources/virus.svg") 100% 115% no-repeat;
+    margin-bottom: 28px;
+}
 .overview_section {
-    width: 1920px;
-    height: 700px;
-    background: url("../../resources/overview.svg") top left no-repeat;
-    padding-left: 140px;
-    padding-top: 1px;
-    position: relative;
     margin: 0 auto;
+    width: 1400px;
+    height: 780px;
+    display: flex;
+    justify-content: space-around;
 }
 .overview__content {
-    margin: 100px 0 0 893px;
+    position: relative;
+    padding-left: 140px;
+    padding-top: 100px;
+    margin: 80px 20px 0 0;
 }
 .overview__button {
     margin-top: 56px;

@@ -9,10 +9,10 @@ export function Header() {
         <header className="header">
             <Logotype />
             <div className="navigation">
-                <a href="">Overview</a>
-                <a href="">Contagion</a>
-                <a href="">Symptoms</a>
-                <a href="">Prevention</a>
+                <a href={"#overview"}>Overview</a>
+                <a href={"#contagion"}>Contagion</a>
+                <a href={"#symptoms"}>Symptoms</a>
+                <a href={"#prevention"}>Prevention</a>
                 <Button text={"Contact"}/>
             </div>
         </header>

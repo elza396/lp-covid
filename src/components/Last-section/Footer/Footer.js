@@ -12,23 +12,23 @@ export function Footer() {
         <div className="footer">
             <Logotype />
             <div className="navigation">
-                <a href="">Overview</a>
-                <a href="">Contagion</a>
-                <a href="">Symptoms</a>
-                <a href="">Prevention</a>
+                <a href={"#overview"}>Overview</a>
+                <a href={"#contagion"}>Contagion</a>
+                <a href={"#symptoms"}>Symptoms</a>
+                <a href={"#prevention"}>Prevention</a>
             </div>
             <div>
                 <div className="navigation">
-                    <a href="">
+                    <a href={"www.facebook.com"}>
                         <img src={Link1} alt=""/>
                     </a>
-                    <a href="">
+                    <a href={"www.youtube.com"}>
                         <img src={Link2} alt=""/>
                     </a>
-                    <a href="">
+                    <a href={"www.vimeo.com"}>
                         <img src={Link3} alt=""/>
                     </a>
-                    <a href="">
+                    <a href={"www.twitter.com"}>
                         <img src={Link4} alt=""/>
                     </a>
                 </div>

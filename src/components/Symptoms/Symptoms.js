@@ -8,7 +8,7 @@ import circleLine2 from "../../resources/circleLine2.svg";
 
 export function Symptoms() {
     return (
-        <div className="symptoms_section">
+        <div className="symptoms_section" id="symptoms">
             <div className="symptoms__content">
                 <p className="title">Covid-19</p>
                 <p className="subtitle">Symptoms</p>

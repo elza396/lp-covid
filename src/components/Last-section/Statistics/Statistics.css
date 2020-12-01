@@ -1,30 +1,35 @@
 .statistics_section {
-    width: 1920px;
+    width: 1440px;
     height: 635px;
-    margin: 100px auto;
+    margin: 0 auto;
 }
 .statistics_content {
     display: flex;
     justify-content: center;
 }
+.statistics__map > img{
+    width: 650px;
+    margin-top: 50px;
+}
 .statistics__reports {
-    height: 635px;
-    width: 505px;
+    min-height: 300px;
+    width: 400px;
     margin-left: 40px;
     background: linear-gradient(360deg, #FFFBFB -79.45%, #FDFDFD 105.35%);
     box-shadow: 0 7px 95px rgba(0, 0, 0, 0.07);
 }
 .statistics__reports__content {
-    margin: 55px;
+    margin: 20px;
 }
 .statistics__reports__content > p {
+    margin-left: 20px;
     font-weight: 500;
-    font-size: 48px;
-    line-height: 58px;
+    font-size: 32px;
+    line-height: 45px;
     color: var(--secondary-color);
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 .statistics__reports__content > table {
-    width: 395px;
-    border-spacing: 0 39px;
+    width: 360px;
+    border-spacing: 0 20px;
 }

@@ -1,19 +1,23 @@
 .contagion_section {
-    margin-top: 50px;
-    margin-bottom: 150px;
+    margin-top: 26px;
+    padding-top: 25px;
+    margin-bottom: 50px;
 }
 .contagion__content {
-    height: 900px;
+    height: 730px;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.contagion__content > .subtitle {
+    margin-bottom: 16px;
 }
 .contagion__content .text {
     text-align: center;
 }
 .contagion__cards {
     display: flex;
-    margin-top: 110px;
+    margin-top: 50px;
     position: relative;
 }
 .contagion__cards::before {

@@ -1,6 +1,6 @@
 .symptom__circle {
-    height: 142px;
-    width: 142px;
+    height: 100px;
+    width: 100px;
     border-radius: 50%;
     background: #FFE1E2;
     display: flex;
@@ -10,8 +10,8 @@
 .symptom__circle > p {
     color: #FF383D;
     font-weight: 500;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 14px;
+    line-height: 18px;
     text-transform: uppercase;
     text-align: center;
 }

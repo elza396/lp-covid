@@ -7,9 +7,11 @@ import {Footer} from "./Footer/Footer";
 export function LastSection() {
     return (
         <div className="last_section">
-            <Statistics />
-            <Question />
-            <Footer />
+            <div className="last_section_BG">
+                <Statistics />
+                <Question />
+                <Footer />
+            </div>
         </div>
     )
 }

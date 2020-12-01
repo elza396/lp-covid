@@ -7,7 +7,7 @@ import Card3 from "../../resources/contagionCard3.svg";
 
 export function Contagion() {
     return (
-        <div className="contagion_section">
+        <div className="contagion_section" id="contagion">
             <div className="contagion__content">
                 <p className="title">Covid-19</p>
                 <p className="subtitle">Contagion</p>

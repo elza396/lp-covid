@@ -2,24 +2,30 @@
     background: linear-gradient(0deg, rgba(255, 255, 255, 0) -30%, #FFF8F8 100%, #B57474 100%);
 }
 .main_section {
-    width: 1920px;
+    width: 1440px;
     margin: 0 auto;
 }
-.main_section__container {
-    height: 910px;
-    background: url("/src/resources/main_section.svg") right no-repeat;
-    padding-top: 1px;
-}
 .main_section__content {
-    margin-left: 243px;
-    margin-top: 260px;
+    margin-top: 130px;
+}
+.main_section__container {
+    height: 700px;
+    padding-top: 1px;
+    position: relative;
+    margin-left: 60px;
+}
+.main_section__container > img {
+    position: absolute;
+    right: 0;
+    top: 8%;
+    width: 760px;
 }
 .main_section .text {
-    font-size: 24px;
-    line-height: 46px;
+    font-size: 20px;
+    line-height: 40px;
 }
 .main_section__button {
-    margin: 54px 0 0 243px;
+    margin-top: 54px;
     height: 80px;
     width: 250px;
 }
