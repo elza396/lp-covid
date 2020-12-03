@@ -1,6 +1,6 @@
 import React from 'react';
 import './Question.css';
-import {Button2} from "../../Button2/Button2";
+import {ButtonFill} from "../../ButtonFill/ButtonFill";
 
 export function Question() {
     return (
@@ -9,7 +9,7 @@ export function Question() {
                 <p>Have Question in mind? <br/> Let us help you</p>
                 <form className="question__form" action="mailto:elza396@yandex.ru">
                     <input type="text" placeholder="snmonydemo@gmail.com"/>
-                    <Button2 text={"Send"}/>
+                    <ButtonFill text={"Send"}/>
                 </form>
             </div>
         </div>

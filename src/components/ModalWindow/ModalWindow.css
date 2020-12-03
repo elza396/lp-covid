@@ -1,0 +1,96 @@
+.modal {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    padding: 30px 0;
+    overflow: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    background: rgba(0, 0, 0, 0.4);
+}
+.modal_window {
+    background: #FFE1E2;
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 45px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+.modal_window__header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.modal_window__header > span {
+    color: var(--secondary-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.modal_window__header > button {
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background: #FFE1E2;
+    border: 2px solid var(--title-color);
+    color: var(--title-color);
+}
+.modal_window__header > button:hover {
+    background:var(--title-color);
+    border: none;
+    color: #FFF;
+}
+.modal_window__form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.modal_window__form > input {
+    margin-bottom: 40px;
+    height: 50px;
+    border: none;
+    background: #FFFFFF;
+    border-radius: 50px;
+    outline: none;
+    padding: 0 20px;
+    color: #4B4F51;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+.modal_window__form > input:focus  {
+    border: 2px solid var(--title-color);
+    box-sizing: border-box;
+}
+.modal_window__form > button {
+    right: 0;
+    width: 120px;
+    height: 50px;
+    border-radius: 50px;
+    background: #FFE1E2;
+    border: 2px solid var(--title-color);
+    color: var(--title-color);
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 28px;
+
+}
+.modal_window__form > button:hover {
+    background:var(--title-color);
+    border: none;
+    color: #FFF;
+}
